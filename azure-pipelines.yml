@@ -47,7 +47,6 @@ steps:
     SourceFolder: '$(Build.SourcesDirectory)'
     Contents: '**/*.dacpac'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
-    flattenFolders: true'
 
 
 - task: PublishBuildArtifacts@1
